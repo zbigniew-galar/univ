@@ -18,6 +18,7 @@ C://Repositories//Project//src//data
 3. In "Extensions" of VS Code install Python.
 
 4. **Choose working directory:**
+
 File -> Open Folder -> C://Repositories//Project//.
 
 **To store Python abilities for our project we create a "venv" subfolder via terminal:**
