@@ -6,8 +6,10 @@ https://www.python.org/downloads/release/python-3113/
 https://code.visualstudio.com/
 
 1. Create folders for your code and data files in your main drive for example:
+
 **Script files storage example folder:**
 C://Repositories//Project//src//code
+
 **Data storage example folder:**
 C://Repositories//Project//src//data
 
