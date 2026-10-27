@@ -2,9 +2,6 @@
 **Claude prompt engineering:**
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 
-**Prompt library:**
-https://www.moreusefulthings.com/prompts
-
 **Leaked system prompts by elder-plinius:**
 https://github.com/elder-plinius/CL4R1T4S
 
