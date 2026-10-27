@@ -1,12 +1,16 @@
 ### Education:
 **Claude prompt engineering:**
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+
 **Prompt library:**
 https://www.moreusefulthings.com/prompts
+
 **Leaked system prompts by elder-plinius:**
 https://github.com/elder-plinius/CL4R1T4S
+
 **Latest prompt engineering papers:**
 https://www.promptingguide.ai/papers
+
 **Claude coding best practices:**
 https://www.anthropic.com/engineering/claude-code-best-practices
 
