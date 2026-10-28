@@ -1,6 +1,3 @@
-## Fizzy link
-https://app.fizzy.do/6281093/join/PV1V-Xcde-amh1
-
 #### Basic Python installation set up
 **Install Python from:**
 https://www.python.org/downloads/release/python-3113/
