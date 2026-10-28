@@ -76,6 +76,8 @@ py 3 --version
 ``` powershell
 python3 --version
 ```
+### Example of more complex code
+### Download input data of Sales and COGS first from /data
 ```
 import pandas as pd
 import numpy as np
