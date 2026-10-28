@@ -1,6 +1,8 @@
 #### Basic Python installation set up
 **Install Python from:**
 https://www.python.org/downloads/release/python-3113/
+**for mac:**
+https://www.python.org/ftp/python/3.15.2/python-3.15.2-macos11.pkg
 
 **Install VS Code from:**
 https://code.visualstudio.com/
