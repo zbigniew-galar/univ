@@ -38,6 +38,14 @@ flowchart TD
 
 **Otwieranie danych:**
 Kliknij plik dwukrotnie lub użyj opcji File > Open w Excelu. Jeśli znaki Unicode nie wyświetlają się poprawnie, zaimportuj go przez kartę Data programu Excel > Get Data > From Text/CSV.
+Dla dziennych danych sprzedażowych na początku dla każdego wiersza trzeba wyciągnąć okres sprzedaży:
+``` excel
+=IF(MONTH(B2)<10;YEAR(B2)&"-0"&MONTH(B2);YEAR(B2)&"-"&MONTH(B2))
+or
+=TEXT(B2;"yyyy-mm")
+// if default language is polish
+=TEXT(B2;"rrrr-mm")
+```
 ###### Analiza ABC w Excelu z użyciem formuł
 1. Tabela "Stock history" to zwykle zrzut danych z systemu ERP w formacie długim. Ilość zapasu na koniec miesiąca kalendarzowego.
 2. Tabela kosztu sprzedanych towarów "COGS" z cenami.
