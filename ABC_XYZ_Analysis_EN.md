@@ -38,6 +38,14 @@ flowchart TD
 
 **Opening data:**
 Double-click it or use File > Open in Excel. If Unicode characters don't display correctly, import it via Excel's Data tab > Get Data > From Text/CSV.
+For the sales data provided on daily granularity the sales the period must be extracted from the date field:
+``` excel
+=IF(MONTH(B2)<10;YEAR(B2)&"-0"&MONTH(B2);YEAR(B2)&"-"&MONTH(B2))
+or
+=TEXT(B2;"yyyy-mm")
+// if default language is polish
+=TEXT(B2;"rrrr-mm")
+```
 ###### ABC analysis in Excel using formulas
 1. "Stock history" table usually as ERP data dump in long format. Stock quantity at the end of the calendar month.
 2. Cost of Goods Sold "COGS" table for prices.
