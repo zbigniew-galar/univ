@@ -91,19 +91,16 @@ Insert -> Pivot Table -> New Worksheet
 ```
 Row Labels (Sort button click) -> More Sort Options -> Descending (Z to A) by: -> Sum of Value
 ```
-![[Pasted image 20251017222939.png]]
 5. Add a running total by "SKU" via "% Running Total in":
 ```
 Sum of Value (Mouse Right click) -> Show Values As -> % Running Total In...
 ```
-![[Pasted image 20251017222311.png]]
 6. Select single period in the Pivot table and add a new formula based calculated column next to the Pivot table. By changing the filter we do different ABC analysis dynamically:
 ``` excel
 =IF(B4<=0,8;"A";IF(B4<=0,95;"B";"C"))
 ```
 #### XYZ Analysis in Excel
-[[EN Analysis XYZ in Supply Chain.png]]
-##### [[Definitions]]
+##### Definitions
 - **Coefficient of Variation (CV)** - a dispersion measure. A ratio of standard variation and mean.
 Population coefficient of variation: $$ CV = \frac{\sigma}{\mu} $$Sample coefficient of variation: $$ CV = \frac{s}{\bar{x}} $$
 - **CSV** - Comma-Separated Values. The most common text data format.
