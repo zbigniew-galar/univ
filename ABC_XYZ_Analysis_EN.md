@@ -1067,3 +1067,15 @@ save_sheets(
     'abc_xyz_report',
 )
 ```
+### Animal segmentation
+| Code | Animal    |
+| ---- | --------- |
+| AX   | Horses    |
+| BX   | Horses    |
+| AY   | Mad Bulls |
+| AZ   | Mad Bulls |
+| BY   | Mad Bulls |
+| BZ   | Mad Bulls |
+| CX   | Turtles   |
+| CY   | Rabbits   |
+| CZ   | Rabbits   |
