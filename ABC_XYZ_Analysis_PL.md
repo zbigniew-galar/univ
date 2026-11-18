@@ -1102,3 +1102,15 @@ Separator argumentów w polskim Excelu to średnik `;`, a separator dziesiętny 
 | FILTRUJ | FILTER |
 | LICZBA.KOLUMN | COLUMNS |
 | Format daty `"rrrr-mm"` | Format daty `"yyyy-mm"` |
+### Animal segmentation
+| Code | Animal    |
+| ---- | --------- |
+| AX   | Horses    |
+| BX   | Horses    |
+| AY   | Mad Bulls |
+| AZ   | Mad Bulls |
+| BY   | Mad Bulls |
+| BZ   | Mad Bulls |
+| CX   | Turtles   |
+| CY   | Rabbits   |
+| CZ   | Rabbits   |
