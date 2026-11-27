@@ -1,6 +1,7 @@
 ### Definicje
 - **CSV** - Comma-Separated Values (wartości rozdzielone przecinkami). Najpopularniejszy tekstowy format danych.
 - **Dni zapasu (Days of Inventory)** - nazywane również dniami pokrycia zapasem lub dniami sprzedaży. Wybiegająca w przyszłość miara zapasów w łańcuchu dostaw, określająca liczbę dni działalności, które mogą zostać obsłużone przy użyciu zapasu dostępnego na stanie. Informacja o tym, na jak długo wystarczy nam zapasu, zakłada, że nie zostanie zakupiony ani wyprodukowany żaden dodatkowy zapas.
+
 $$  
 \text{Dni zapasu} = \frac{\text{Zapas na koniec miesiąca}}{\text{Sprzedaż w miesiącu}} \quad*30
 $$
