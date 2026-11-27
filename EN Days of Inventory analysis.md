@@ -1,6 +1,7 @@
 ### Definitions
 - **CSV** - Comma-Separated Values. The most common text data format.
 - **Days of Inventory** - also called days of supply or days of sales a forward-looking supply chain inventory measure of number of days of business operations that can be supported with the inventory on hand. The information of for how long our supply will last assumes that no more inventory is bought or produced.
+  
 $$  
 \text{Days of Inventory} = \frac{\text{Stock month end}}{\text{Sales of the month}} \quad*30
 $$
